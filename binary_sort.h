@@ -7,10 +7,10 @@ template<std::random_access_iterator Iterator_T, std::random_access_iterator Sen
         typename Compare_T = std::less<>>
 void binary_sort(Iterator_T begin, Sentinel_T end, Compare_T comp = Compare_T()) {
     using type = typename std::iterator_traits<Iterator_T>::value_type;
-    // Binary Insertion Sort using a multiset (allows duplicate values)
+    // Binary Insertion Sort using a multiset (BST, allows duplicate values)
     std::multiset<type, Compare_T> sorted(comp);
 
-    // Insert values from iterator into BST (multiset)
+    // Insert values from iterator into BST
     for (auto i = begin; i != end; ++i) {
         sorted.insert(*i);
     }
