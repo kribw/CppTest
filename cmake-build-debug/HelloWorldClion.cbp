@@ -82,16 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Code/MyProject/CppTest/binary_sort.cpp">
+		<Unit filename="C:/Code/MyProject/CppTest/binary_sort.h">
 			<Option target="HelloWorldClion"/>
 		</Unit>
-		<Unit filename="C:/Code/MyProject/CppTest/counting_sort.cpp">
+		<Unit filename="C:/Code/MyProject/CppTest/counting_sort.h">
 			<Option target="HelloWorldClion"/>
 		</Unit>
 		<Unit filename="C:/Code/MyProject/CppTest/main.cpp">
 			<Option target="HelloWorldClion"/>
 		</Unit>
-		<Unit filename="C:/Code/MyProject/CppTest/radix_sort.cpp">
+		<Unit filename="C:/Code/MyProject/CppTest/radix_sort.h">
 			<Option target="HelloWorldClion"/>
 		</Unit>
 		<Unit filename="C:/Code/MyProject/CppTest/sort.h">

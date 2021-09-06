@@ -128,54 +128,6 @@ HelloWorldClion/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/build
 .PHONY : HelloWorldClion/fast
 
-binary_sort.obj: binary_sort.cpp.obj
-.PHONY : binary_sort.obj
-
-# target to build an object file
-binary_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj
-.PHONY : binary_sort.cpp.obj
-
-binary_sort.i: binary_sort.cpp.i
-.PHONY : binary_sort.i
-
-# target to preprocess a source file
-binary_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.i
-.PHONY : binary_sort.cpp.i
-
-binary_sort.s: binary_sort.cpp.s
-.PHONY : binary_sort.s
-
-# target to generate assembly for a file
-binary_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.s
-.PHONY : binary_sort.cpp.s
-
-counting_sort.obj: counting_sort.cpp.obj
-.PHONY : counting_sort.obj
-
-# target to build an object file
-counting_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj
-.PHONY : counting_sort.cpp.obj
-
-counting_sort.i: counting_sort.cpp.i
-.PHONY : counting_sort.i
-
-# target to preprocess a source file
-counting_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.i
-.PHONY : counting_sort.cpp.i
-
-counting_sort.s: counting_sort.cpp.s
-.PHONY : counting_sort.s
-
-# target to generate assembly for a file
-counting_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.s
-.PHONY : counting_sort.cpp.s
-
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -200,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-radix_sort.obj: radix_sort.cpp.obj
-.PHONY : radix_sort.obj
-
-# target to build an object file
-radix_sort.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj
-.PHONY : radix_sort.cpp.obj
-
-radix_sort.i: radix_sort.cpp.i
-.PHONY : radix_sort.i
-
-# target to preprocess a source file
-radix_sort.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.i
-.PHONY : radix_sort.cpp.i
-
-radix_sort.s: radix_sort.cpp.s
-.PHONY : radix_sort.s
-
-# target to generate assembly for a file
-radix_sort.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HelloWorldClion.dir\build.make CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.s
-.PHONY : radix_sort.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -233,18 +161,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... HelloWorldClion
-	@echo ... binary_sort.obj
-	@echo ... binary_sort.i
-	@echo ... binary_sort.s
-	@echo ... counting_sort.obj
-	@echo ... counting_sort.i
-	@echo ... counting_sort.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... radix_sort.obj
-	@echo ... radix_sort.i
-	@echo ... radix_sort.s
 .PHONY : help
 
 

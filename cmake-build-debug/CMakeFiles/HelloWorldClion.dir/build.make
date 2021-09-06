@@ -78,64 +78,19 @@ CMakeFiles/HelloWorldClion.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorldClion.dir/main.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\MyProject\CppTest\main.cpp -o CMakeFiles\HelloWorldClion.dir\main.cpp.s
 
-CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj: CMakeFiles/HelloWorldClion.dir/flags.make
-CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj: ../counting_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Code\MyProject\CppTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HelloWorldClion.dir\counting_sort.cpp.obj -c C:\Code\MyProject\CppTest\counting_sort.cpp
-
-CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\MyProject\CppTest\counting_sort.cpp > CMakeFiles\HelloWorldClion.dir\counting_sort.cpp.i
-
-CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\MyProject\CppTest\counting_sort.cpp -o CMakeFiles\HelloWorldClion.dir\counting_sort.cpp.s
-
-CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj: CMakeFiles/HelloWorldClion.dir/flags.make
-CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj: ../radix_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Code\MyProject\CppTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HelloWorldClion.dir\radix_sort.cpp.obj -c C:\Code\MyProject\CppTest\radix_sort.cpp
-
-CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\MyProject\CppTest\radix_sort.cpp > CMakeFiles\HelloWorldClion.dir\radix_sort.cpp.i
-
-CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\MyProject\CppTest\radix_sort.cpp -o CMakeFiles\HelloWorldClion.dir\radix_sort.cpp.s
-
-CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj: CMakeFiles/HelloWorldClion.dir/flags.make
-CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj: ../binary_sort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Code\MyProject\CppTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HelloWorldClion.dir\binary_sort.cpp.obj -c C:\Code\MyProject\CppTest\binary_sort.cpp
-
-CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.i"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Code\MyProject\CppTest\binary_sort.cpp > CMakeFiles\HelloWorldClion.dir\binary_sort.cpp.i
-
-CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.s"
-	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Code\MyProject\CppTest\binary_sort.cpp -o CMakeFiles\HelloWorldClion.dir\binary_sort.cpp.s
-
 # Object files for target HelloWorldClion
 HelloWorldClion_OBJECTS = \
-"CMakeFiles/HelloWorldClion.dir/main.cpp.obj" \
-"CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj" \
-"CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj" \
-"CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj"
+"CMakeFiles/HelloWorldClion.dir/main.cpp.obj"
 
 # External object files for target HelloWorldClion
 HelloWorldClion_EXTERNAL_OBJECTS =
 
 HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/main.cpp.obj
-HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj
-HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj
-HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj
 HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/build.make
 HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/linklibs.rsp
 HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/objects1.rsp
 HelloWorldClion.exe: CMakeFiles/HelloWorldClion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Code\MyProject\CppTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable HelloWorldClion.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Code\MyProject\CppTest\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable HelloWorldClion.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HelloWorldClion.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

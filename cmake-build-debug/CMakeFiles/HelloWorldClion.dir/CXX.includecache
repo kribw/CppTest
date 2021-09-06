@@ -6,15 +6,35 @@
 
 #IncludeRegexTransform: 
 
-C:/Code/MyProject/CppTest/counting_sort.cpp
+C:/Code/MyProject/CppTest/binary_sort.h
+iostream
+-
+set
+-
+
+C:/Code/MyProject/CppTest/counting_sort.h
 iostream
 -
 map
 -
-sort.h
-C:/Code/MyProject/CppTest/sort.h
 
-C:/Code/MyProject/CppTest/sort.h
+C:/Code/MyProject/CppTest/main.cpp
+iterator
+-
+iostream
+-
 vector
-C:/Code/MyProject/CppTest/vector
+-
+counting_sort.h
+C:/Code/MyProject/CppTest/counting_sort.h
+radix_sort.h
+C:/Code/MyProject/CppTest/radix_sort.h
+binary_sort.h
+C:/Code/MyProject/CppTest/binary_sort.h
+
+C:/Code/MyProject/CppTest/radix_sort.h
+iostream
+-
+cmath
+-
 

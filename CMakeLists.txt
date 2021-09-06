@@ -9,9 +9,6 @@ set(PROJECT_HEADERS
 
 set(PROJECT_SOURCES
         main.cpp
-        counting_sort.cpp
-        radix_sort.cpp
-        binary_sort.cpp
-        )
+        counting_sort.h binary_sort.h radix_sort.h)
 
 add_executable(HelloWorldClion ${PROJECT_SOURCES} ${PROJECT_HEADERS})
