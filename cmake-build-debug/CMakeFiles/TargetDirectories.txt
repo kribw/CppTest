@@ -1,3 +1,0 @@
-C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/HelloWorldClion.dir
-C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
