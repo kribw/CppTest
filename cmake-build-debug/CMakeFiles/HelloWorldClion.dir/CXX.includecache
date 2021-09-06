@@ -6,19 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Code/HelloWorldClion/main.cpp
-iterator
--
-algorithm
--
-vector
--
+C:/Code/MyProject/CppTest/counting_sort.cpp
 iostream
 -
 map
 -
-set
--
-cmath
--
+sort.h
+C:/Code/MyProject/CppTest/sort.h
+
+C:/Code/MyProject/CppTest/sort.h
+vector
+C:/Code/MyProject/CppTest/vector
 

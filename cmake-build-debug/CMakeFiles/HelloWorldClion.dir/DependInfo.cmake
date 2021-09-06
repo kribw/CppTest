@@ -8,9 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Code/HelloWorldClion/main.cpp" "C:/Code/HelloWorldClion/cmake-build-debug/CMakeFiles/HelloWorldClion.dir/main.cpp.obj"
+  "C:/Code/MyProject/CppTest/binary_sort.cpp" "C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/HelloWorldClion.dir/binary_sort.cpp.obj"
+  "C:/Code/MyProject/CppTest/counting_sort.cpp" "C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/HelloWorldClion.dir/counting_sort.cpp.obj"
+  "C:/Code/MyProject/CppTest/main.cpp" "C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/HelloWorldClion.dir/main.cpp.obj"
+  "C:/Code/MyProject/CppTest/radix_sort.cpp" "C:/Code/MyProject/CppTest/cmake-build-debug/CMakeFiles/HelloWorldClion.dir/radix_sort.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

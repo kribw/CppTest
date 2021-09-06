@@ -3,4 +3,15 @@ project(HelloWorldClion)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(HelloWorldClion main.cpp)
+set(PROJECT_HEADERS
+        sort.h
+        )
+
+set(PROJECT_SOURCES
+        main.cpp
+        counting_sort.cpp
+        radix_sort.cpp
+        binary_sort.cpp
+        )
+
+add_executable(HelloWorldClion ${PROJECT_SOURCES} ${PROJECT_HEADERS})
