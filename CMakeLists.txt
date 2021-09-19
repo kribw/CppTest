@@ -7,7 +7,7 @@ set(PROJECT_HEADERS
         counting_sort.h
         binary_sort.h
         radix_sort.h
-        )
+        naive_search.h kmp_search.h)
 
 set(PROJECT_SOURCES
         main.cpp
