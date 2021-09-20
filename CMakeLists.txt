@@ -7,10 +7,10 @@ set(PROJECT_HEADERS
         counting_sort.h
         binary_sort.h
         radix_sort.h
-        naive_search.h kmp_search.h)
+        naive_search.h kmp_search.h breadth_first_search.h)
 
 set(PROJECT_SOURCES
         main.cpp
-        custom_aa_sort.h)
+        custom_aa_sort.h breadth_first_search_example.h)
 
 add_executable(HelloWorldClion ${PROJECT_SOURCES} ${PROJECT_HEADERS})

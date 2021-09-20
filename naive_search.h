@@ -1,4 +1,4 @@
-#pragma onceonce
+#pragma once
 
 // stl
 #include <iterator>

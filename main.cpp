@@ -9,6 +9,7 @@
 #include "kmp_search.h"
 #include <functional>
 #include <span>
+#include <queue>
 
 using namespace kmp;
 
@@ -29,10 +30,13 @@ int main() {
     std::string string = "HEL2LO in this string HELLO Find the sequence";
 
     //auto result = naive_search(string.begin(), string.end(), sequence.begin(), sequence.end());
-    auto result = kmp_search(string.begin(), string.end(), sequence.begin(), sequence.end());
+    /*auto result = kmp_search(string.begin(), string.end(), sequence.begin(), sequence.end());
 
     std::cout << "Result: " << *result << std::endl;
-    std::cout << "Result == end: " << (result == string.end() ? "true" : "false");
+    std::cout << "Result == end: " << (result == string.end() ? "true" : "false"); */
 
+    std::vector<int> numbers { 1,2,3,4,5 };
+    std::queue<int> queue({1,2,3,4,5});
+    std::cout << queue.size();
     return 0;
 }

@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <cmath>
+#include <algorithm>
 #include "counting_sort.h"
 
 template<std::random_access_iterator Iterator_T, std::random_access_iterator Sentinel_T,
